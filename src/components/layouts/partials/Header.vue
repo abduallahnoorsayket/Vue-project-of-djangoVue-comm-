@@ -20,7 +20,7 @@
         <div class="container">
           <!-- Navbar Brand -->
           <div class="navbar-header d-flex align-items-center justify-content-between">
-            <!-- Navbar Brand --><a href="#" class="navbar-brand">Bootstrap Blog</a>
+            <!-- Navbar Brand --><a href="#" class="navbar-brand">Wellcome to Abdullah's  Blog</a>
             <!-- Toggle Button-->
             <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span></span><span></span><span></span></button>
           </div>
@@ -33,6 +33,16 @@
               </li>
               <li class="nav-item"><a href="#" class="nav-link "><router-link to="/postdetails">Post</router-link></a>
               </li>
+
+              <!-- edited -->
+
+              <li class="nav-item"><a href="#" class="nav-link "><router-link to="/registerpage">Register</router-link></a>
+              </li>
+              <li class="nav-item"><a href="#" class="nav-link "><router-link to="/login">Log In</router-link></a>
+              </li>
+
+
+
               <li class="nav-item"><a href="#" class="nav-link ">Contact</a>
               </li>
             </ul>

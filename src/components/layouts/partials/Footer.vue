@@ -5,11 +5,15 @@
         <div class="row">
           <div class="col-md-4">
             <div class="logo">
-              <h6 class="text-white">Bootstrap Blog</h6>
+              <h6 class="text-black">Bootstrap Blog</h6>
             </div>
             <div class="contact-details">
+              <strong>
+
               <p>53 Broadway, Broklyn, NY 11249</p>
               <p>Phone: (020) 123 456 789</p>
+              </strong>
+
               <p>Email: <a href="mailto:info@company.com">Info@Company.com</a></p>
               <ul class="social-menu">
                 <li class="list-inline-item"><a href="#"><i class="fa fa-facebook"></i></a></li>

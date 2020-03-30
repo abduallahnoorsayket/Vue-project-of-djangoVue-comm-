@@ -7,6 +7,8 @@ import Home from '../components/pages/Home'
 import Blog from "../components/pages/Blog"
 import Post from "../components/pages/Post"
 import Postdetails from "../components/pages/Postdetails"
+import RegisterPage from "../components/pages/RegisterPage"
+import Login from "../components/pages/Login"
 
 // import Contact from "../components/pages/Contact";
 // import Sample from "../components/pages/Sample";
@@ -25,6 +27,9 @@ const routes = [
     {path: '/post/:id', component: Post, name: 'Post'},
     {path: '/postdetails', component: Postdetails, name: 'Postdetails'},
     // {path: '/sample/:id', component: Sample, name: 'Sample'},
+
+    {path: '/registerpage', component: RegisterPage, name: 'RegisterPage'},
+    {path: '/login', component: Login, name: 'Login'},
 
 ];
 
