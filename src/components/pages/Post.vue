@@ -11,7 +11,7 @@
                                     alt="..." class="img-fluid"></div>
                             <div class="post-details">
                                 <div class="post-meta d-flex justify-content-between">
-                                    <div class="category"><a href="#">Business</a><a href="#">Financial</a></div>
+                                    <div class="category"><a href="#">Busy</a><a href="#">Financial</a></div>
                                 </div>
                                 <h1>{{post.title}}<a href="#"><i class="fa fa-bookmark-o"></i></a></h1>
                                 <div class="post-footer d-flex align-items-center flex-column flex-sm-row"><a href="#"
@@ -28,7 +28,7 @@
                                     </div>
                                 </div>
                                 <div class="post-body">
-                                    <p class="lead">{{post}}</p>
+                                    <!-- <p class="lead">{{post}}</p> -->
                                     <p>{{post.body}}</p>
                                     <p>
                                         <img src="https://d19m59y37dris4.cloudfront.net/blog/1-2-1/img/featured-pic-3.jpeg"
@@ -50,6 +50,7 @@
                                     </div>
                                     <div class="icon next"><i class="fa fa-angle-right"> </i></div>
                                 </a></div>
+                              
                             <Comment/>
                                 <LeaveComments/>
                             </div>
